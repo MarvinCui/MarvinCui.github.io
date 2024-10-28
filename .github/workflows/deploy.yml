@@ -3,25 +3,28 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 确保这里的分支名与你想要部署的分支名相匹配
+      - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          npm run build
-        env:
-        # 如果你的构建过程需要环境变量，可以在这里设置
-        # EXAMPLE_VARIABLE: ${{ secrets.EXAMPLE_VARIABLE }}
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.7
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          branch: 'gh-pages'  # 确保分支名被正确引用
-          folder: 'dist'  # 确保文件夹名被正确引用
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
