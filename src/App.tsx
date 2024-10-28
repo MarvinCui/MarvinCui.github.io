@@ -57,7 +57,7 @@ function App() {
       <section className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-gradient text-center">About Me</h2>
-          <div className="glass-panel p-10 rounded-2xl space-y-6">
+          <div className="glass-panel p-10 rounded-2xl space-y-6 transform hover:scale-[1.02] transition-all duration-300">
             <p className="text-lg leading-relaxed text-purple-900">
               I'm a high school student at<a href="https://www.pkudalton.com" className="text-gradient font-medium hover:opacity-80 link-underline">The Affiliated High School of Peking University</a>.
               I'm interested in psychology and neuroscience. I am proud to be Gay and continue to do HIV community service.
@@ -79,7 +79,7 @@ function App() {
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold mb-16 text-gradient text-center">Research</h2>
-          <div className="glass-panel rounded-2xl overflow-hidden">
+          <div className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div className="md:flex">
               <div className="md:flex-shrink-0 p-8">
                 <img src="images/Aphantasia.png" alt="Research visualization"
