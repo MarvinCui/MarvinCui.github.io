@@ -195,7 +195,7 @@ function App() {
 
       {/* Footer */}
       <footer className="py-12 px-6 text-center text-purple-700">
-        <p>© {new Date().getFullYear()} Boran Cui • <a href="index-zh.html" className="hover:text-gradient transition-colors">中文版</a></p>
+        <p>© {new Date().getFullYear()} Boran Cui</p>
       </footer>
     </div>
   );
