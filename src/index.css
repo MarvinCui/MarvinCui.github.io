@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-neutral-900;
+    background: linear-gradient(135deg, #F3E8FF 0%, #FCE7F3 100%);
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.glass-panel {
+  @apply backdrop-blur-md bg-white/10 border border-white/20;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+}
+
+.glass-effect {
+  @apply backdrop-blur-lg bg-white/20 border border-white/30;
+  box-shadow: 0 4px 24px rgba(138, 75, 175, 0.12);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #F3E8FF 0%, #FCE7F3 100%);
+}
+
+.accent-gradient {
+  background: linear-gradient(135deg, #9333EA 0%, #EC4899 100%);
+}
+
+.hover-gradient {
+  background-size: 200% 200%;
+  transition: all 0.3s ease;
+  background-position: 0% 0%;
+}
+
+.hover-gradient:hover {
+  background-position: 100% 100%;
+}
+
+.section-transition {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+.elegant-shadow {
+  box-shadow: 0 4px 24px rgba(138, 75, 175, 0.08);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, #9333EA 0%, #EC4899 100%);
+}
