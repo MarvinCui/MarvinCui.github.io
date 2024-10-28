@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 触发部署的分支名
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,17 +15,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'  # 使用 Node.js 版本 14
+          node-version: '20'  # 更新到 Node.js 版本 20
 
       - name: Install dependencies
         run: npm install
 
       - name: Build project
-        run: npm run build  # 假设你的构建命令是 npm run build
+        run: npm run build  # 确保这个命令会生成 dist 目录
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
-          branch: gh-pages  # 部署到 gh-pages 分支
-          folder: dist  # 构建输出的目录
-          clean: true  # 是否在部署前清理 gh-pages 分支
+          branch: gh-pages
+          folder: dist
+          clean: true
