@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # 更新到 Node.js 版本 20
+          node-version: '20'  # 使用最新的 Node.js 版本
 
       - name: Install dependencies
         run: npm install
