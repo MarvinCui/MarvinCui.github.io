@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, Code, Heart, ChevronDown, Mail, Twitter, MessageCircleMore , GraduationCap , ScrollText } from 'lucide-react';
+import { ChevronDown, Mail, Twitter, MessageCircleMore , GraduationCap , ScrollText } from 'lucide-react';
 
 function App() {
   return (
