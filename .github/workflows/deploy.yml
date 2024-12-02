@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub pages
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
       - name: Build project
         run: npm run build  # 确保这个命令会生成 dist 目录
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub pages
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages
