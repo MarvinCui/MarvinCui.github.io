@@ -128,7 +128,7 @@ function Home() {
                 <img src="/images/article1.png" alt="Article 1" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-purple-900">
-                    <a href="/articles/first-article" className="link-underline-nonemargin hover:text-gradient transition-all">From Writer to Founder
+                    <a href="/#/articles/first-article" className="link-underline-nonemargin hover:text-gradient transition-all">From Writer to Founder
                     </a>
 
                   </h3>
@@ -147,7 +147,7 @@ function Home() {
                 <img src="/images/article2.jpg" alt="Article 2" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-purple-900">
-                    <a href="/articles/second-article"
+                    <a href="/#/articles/second-article"
                        className="link-underline-nonemargin hover:text-gradient transition-all">
                       Introducing 'Transparent Growth Path'
                     </a>
