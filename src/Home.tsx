@@ -93,7 +93,7 @@ function Home() {
           <div className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div className="md:flex">
               <div className="md:flex-shrink-0 p-8">
-                <img src="../public/images/Aphantasia.png" alt="Research visualization"
+                <img src="/images/Aphantasia.png" alt="Research visualization"
                      className="w-36 sm:w-48 h-28 sm:h-36 object-cover rounded-xl shadow-lg"/>
               </div>
               <div className="p-8">
@@ -125,7 +125,7 @@ function Home() {
           <div className="space-y-6 sm:space-y-8">
             <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
               <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-                <img src="../public/images/article1.png" alt="Article 1" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
+                <img src="/images/article1.png" alt="Article 1" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-purple-900">
                     <a href="/articles/first-article" className="link-underline-nonemargin hover:text-gradient transition-all">From Writer to Founder
@@ -144,7 +144,7 @@ function Home() {
 
             <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
               <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-                <img src="../public/images/article2.jpg" alt="Article 2" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
+                <img src="/images/article2.jpg" alt="Article 2" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-purple-900">
                     <a href="/articles/second-article"
@@ -177,7 +177,7 @@ function Home() {
     <div className="space-y-6 sm:space-y-8">
       <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
         <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
-          <img src="../public/images/pkuschool.webp" alt="PKU School" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
+          <img src="/images/pkuschool.webp" alt="PKU School" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
             <h3 className="text-xl sm:text-2xl font-bold text-purple-900">Dalton Research Grant</h3>
             <p className="text-purple-700 mt-1">The Affiliated High School of Peking University</p>
@@ -188,7 +188,7 @@ function Home() {
 
       <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
         <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
-          <img src="../public/images/IUPAB.jpg" alt="IUPAB" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
+          <img src="/images/IUPAB.jpg" alt="IUPAB" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
             <h3 className="text-xl sm:text-2xl font-bold text-purple-900">"Excellent Research Report" of 2023</h3>
             <p className="text-purple-700 mt-1">Biophysical Society of China</p>
@@ -199,7 +199,7 @@ function Home() {
 
       <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
         <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
-          <img src="../public/images/ChinaBrainBee.png" alt="CBB" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
+          <img src="/images/ChinaBrainBee.png" alt="CBB" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
             <h3 className="text-xl sm:text-2xl font-bold text-purple-900">China BrainBee 2023</h3>
             <p className="text-purple-700 mt-1">International Brain Bee</p>
@@ -218,7 +218,7 @@ function Home() {
     <div className="space-y-8 sm:space-y-12">
       <div className="glass-panel p-8 sm:p-10 rounded-2xl transform hover:scale-105 transition-all duration-300">
         <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-          <img src="../public/images/pku.jpeg" alt="PKU" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
+          <img src="/images/pku.jpeg" alt="PKU" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
             <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="https://talent.psy.pku.edu.cn/" className="link-underline-nonemargin">Talented Youth Initiative</a></h3>
             <p className="text-purple-700 mt-1 mb-3 sm:mb-4">Student '23</p>
@@ -233,7 +233,7 @@ function Home() {
 
       <div className="glass-panel p-8 sm:p-10 rounded-2xl transform hover:scale-105 transition-all duration-300">
         <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-          <img src="../public/images/AdvX.png" alt="AdventureX" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
+          <img src="/images/AdvX.png" alt="AdventureX" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
             <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="http://adventure-x.org/" className="link-underline-nonemargin">AdventureX</a></h3>
             <p className="text-purple-700 mt-1 mb-3 sm:mb-4">Co-Founder</p>
