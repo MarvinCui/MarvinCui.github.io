@@ -91,53 +91,58 @@ function Home() {
         <div className="max-w-2xl sm:max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-10 sm:mb-16 text-gradient text-center">Research</h2>
 
-          <div
-              className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0 p-8">
-                <img src="/images/Aphantasia.png" alt="Research visualization"
-                     className="w-36 sm:w-48 h-28 sm:h-36 object-cover rounded-xl shadow-lg"/>
-              </div>
-              <div className="p-8">
-                <div className="uppercase tracking-wider text-sm font-semibold text-gradient">Published Research</div>
-                <a href="https://www.researchgate.net/publication/373258960_Exploring_the_Connections_between_Romantic_Desire_and_Mental_Imagery"
-                   className="block mt-2 text-xl sm:text-2xl font-playfair font-semibold text-purple-900 hover:text-gradient transition-colors link-underline-nonemargin">
-                  Exploring the Connections between Romantic Desire and Mental Imagery
-                </a>
-                <p className="mt-3 text-purple-800">
-                  <strong>Authors:</strong> Boran Cui, Yuhan Liu, Zhenxiong Wen, Weibo Zhang*
-                </p>
-                <p className="mt-2 text-purple-600">
-                  Published in The Frontiers of Society, Science and Technology, 2023
-                </p>
-                <p className="mt-4 text-purple-800 leading-relaxed">
-                  This study finds that stronger mental imagery abilities are linked to better recall, continuity,
-                  and frequency of romantic feelings and relationships among high school students.
-                </p>
+          <div className="space-y-6 sm:space-y-8">
+
+            <div
+                className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
+              <div className="md:flex">
+                <div className="md:flex-shrink-0 p-8">
+                  <img src="/images/Aphantasia.png" alt="Research visualization"
+                       className="w-36 sm:w-48 h-28 sm:h-36 object-cover rounded-xl shadow-lg"/>
+                </div>
+                <div className="p-8">
+                  <div className="uppercase tracking-wider text-sm font-semibold text-gradient">Published Research</div>
+                  <a href="https://www.researchgate.net/publication/373258960_Exploring_the_Connections_between_Romantic_Desire_and_Mental_Imagery"
+                     className="block mt-2 text-xl sm:text-2xl font-playfair font-semibold text-purple-900 hover:text-gradient transition-colors link-underline-nonemargin">
+                    Exploring the Connections between Romantic Desire and Mental Imagery
+                  </a>
+                  <p className="mt-3 text-purple-800">
+                    <strong>Authors:</strong> Boran Cui, Yuhan Liu, Zhenxiong Wen, Weibo Zhang*
+                  </p>
+                  <p className="mt-2 text-purple-600">
+                    Published in The Frontiers of Society, Science and Technology, 2023
+                  </p>
+                  <p className="mt-4 text-purple-800 leading-relaxed">
+                    This study finds that stronger mental imagery abilities are linked to better recall, continuity,
+                    and frequency of romantic feelings and relationships among high school students.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div
-              className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0 p-8">
-                <img src="/images/Aphantasia.png" alt="Research visualization"
-                     className="w-36 sm:w-48 h-28 sm:h-36 object-cover rounded-xl shadow-lg"/>
-              </div>
-              <div className="p-8">
-                <div className="uppercase tracking-wider text-sm font-semibold text-gradient">DRAFT</div>
-                <a href="/public/Probiotics_Draft.pdf"
-                   className="block mt-2 text-xl sm:text-2xl font-playfair font-semibold text-purple-900 hover:text-gradient transition-colors link-underline-nonemargin">
-                  Probiotics Impact on Cognitive Ability and Emotionsin Adolescents: A Brain-Gut Axis Study
-                </a>
-                <p className="mt-3 text-purple-800">
-                  <strong>Authors:</strong> Boran Cui, Zhenxiong Wen, Yuhan Zhang, Weibo Zhang*
-                </p>
-                <p className="mt-4 text-purple-800 leading-relaxed">
-                  This study investigates the effects of probiotics on adolescents’ cognitive abilities, memory, and emotions,
-                  showing that probiotics improve cognitive function and emotional well-being by regulating the gut-brain axis.
-                </p>
+            <div
+                className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
+              <div className="md:flex">
+                <div className="md:flex-shrink-0 p-8">
+                  <img src="/images/probiotic_illustration.png" alt="Research visualization"
+                       className="w-36 sm:w-48 h-28 sm:h-36 object-cover rounded-xl shadow-lg"/>
+                </div>
+                <div className="p-8">
+                  <div className="uppercase tracking-wider text-sm font-semibold text-gradient">DRAFT</div>
+                  <a href="/Probiotics_Draft.pdf"
+                     className="block mt-2 text-xl sm:text-2xl font-playfair font-semibold text-purple-900 hover:text-gradient transition-colors link-underline-nonemargin">
+                    Probiotics Impact on Cognitive Ability and Emotionsin Adolescents: A Brain-Gut Axis Study
+                  </a>
+                  <p className="mt-3 text-purple-800">
+                    <strong>Authors:</strong> Boran Cui, Zhenxiong Wen, Yuhan Zhang, Weibo Zhang*
+                  </p>
+                  <p className="mt-4 text-purple-800 leading-relaxed">
+                    This study investigates the effects of probiotics on adolescents’ cognitive abilities, memory, and
+                    emotions,
+                    showing that probiotics improve cognitive function and emotional well-being by regulating the
+                    gut-brain axis.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
