@@ -90,7 +90,9 @@ function Home() {
       <section className="py-16 sm:py-24 px-4 sm:px-6">
         <div className="max-w-2xl sm:max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-10 sm:mb-16 text-gradient text-center">Research</h2>
-          <div className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
+
+          <div
+              className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div className="md:flex">
               <div className="md:flex-shrink-0 p-8">
                 <img src="/images/Aphantasia.png" alt="Research visualization"
@@ -115,6 +117,30 @@ function Home() {
               </div>
             </div>
           </div>
+
+          <div
+              className="glass-panel rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
+            <div className="md:flex">
+              <div className="md:flex-shrink-0 p-8">
+                <img src="/images/Aphantasia.png" alt="Research visualization"
+                     className="w-36 sm:w-48 h-28 sm:h-36 object-cover rounded-xl shadow-lg"/>
+              </div>
+              <div className="p-8">
+                <div className="uppercase tracking-wider text-sm font-semibold text-gradient">DRAFT</div>
+                <a href="/public/Probiotics_Draft.pdf"
+                   className="block mt-2 text-xl sm:text-2xl font-playfair font-semibold text-purple-900 hover:text-gradient transition-colors link-underline-nonemargin">
+                  Probiotics Impact on Cognitive Ability and Emotionsin Adolescents: A Brain-Gut Axis Study
+                </a>
+                <p className="mt-3 text-purple-800">
+                  <strong>Authors:</strong> Boran Cui, Zhenxiong Wen, Yuhan Zhang, Weibo Zhang*
+                </p>
+                <p className="mt-4 text-purple-800 leading-relaxed">
+                  This study investigates the effects of probiotics on adolescents’ cognitive abilities, memory, and emotions,
+                  showing that probiotics improve cognitive function and emotional well-being by regulating the gut-brain axis.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -123,12 +149,15 @@ function Home() {
         <div className="max-w-2xl sm:max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-10 sm:mb-16 text-gradient text-center">Articles</h2>
           <div className="space-y-6 sm:space-y-8">
-            <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
+            <div
+                className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
               <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-                <img src="/images/article1.png" alt="Article 1" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
+                <img src="/images/article1.png" alt="Article 1"
+                     className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-purple-900">
-                    <a href="/#/articles/first-article" className="link-underline-nonemargin hover:text-gradient transition-all">From Writer to Founder
+                    <a href="/#/articles/first-article"
+                       className="link-underline-nonemargin hover:text-gradient transition-all">From Writer to Founder
                     </a>
 
                   </h3>
@@ -142,9 +171,11 @@ function Home() {
               </div>
             </div>
 
-            <div className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
+            <div
+                className="glass-panel p-6 sm:p-8 rounded-2xl transform hover:scale-[1.02] transition-all duration-300">
               <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-                <img src="/images/article2.jpg" alt="Article 2" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
+                <img src="/images/article2.jpg" alt="Article 2"
+                     className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl" />
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-purple-900">
                     <a href="/#/articles/second-article"
@@ -220,7 +251,9 @@ function Home() {
         <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
           <img src="/images/pku.jpeg" alt="PKU" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="https://talent.psy.pku.edu.cn/" className="link-underline-nonemargin">Talented Youth Initiative</a></h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="https://talent.psy.pku.edu.cn/"
+                                                                             className="link-underline-nonemargin">Talented
+              Youth Initiative</a></h3>
             <p className="text-purple-700 mt-1 mb-3 sm:mb-4">Student '23</p>
             <p className="text-purple-800 leading-relaxed">
               Talented Youth Initiative is a selection and cultivation program for top innovative youth in China.
@@ -233,12 +266,30 @@ function Home() {
 
       <div className="glass-panel p-8 sm:p-10 rounded-2xl transform hover:scale-105 transition-all duration-300">
         <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
+          <img src="/images/THU.png" alt="THU" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
+          <div>
+            <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="https://life.tsinghua.edu.cn/info/1133/5575.htm"
+                                                                             className="link-underline-nonemargin">Tsinghua University "Artificial Evolution" Winter Camp</a></h3>
+            <p className="text-purple-700 mt-1 mb-3 sm:mb-4">Student '24 (The First Year)</p>
+            <p className="text-purple-800 leading-relaxed">
+              The “Artificial Evolution” Winter Camp at Tsinghua University in January 2024 aimed to train high school students and teachers in scientific research.
+              It offered theoretical lessons and hands-on experiments, focusing on innovation, scientific methods, and the importance of curiosity in research.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="glass-panel p-8 sm:p-10 rounded-2xl transform hover:scale-105 transition-all duration-300">
+        <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
           <img src="/images/AdvX.png" alt="AdventureX" className="w-16 sm:w-20 h-16 sm:h-20 object-contain rounded-xl"/>
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="http://adventure-x.org/" className="link-underline-nonemargin">AdventureX</a></h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-purple-900"><a href="http://adventure-x.org/"
+                                                                             className="link-underline-nonemargin">AdventureX</a>
+            </h3>
             <p className="text-purple-700 mt-1 mb-3 sm:mb-4">Co-Founder</p>
             <p className="text-purple-800 leading-relaxed">
-              AdventureX is a localized global hackathon platform rooted in China, promoting maker culture. In July 2024,
+              AdventureX is a localized global hackathon platform rooted in China, promoting maker culture. In July
+              2024,
               AdventureX hosted China's largest offline hackathon event for young people in Hangzhou.
             </p>
           </div>
